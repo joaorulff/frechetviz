@@ -1,0 +1,25 @@
+.about-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    flex-flow: center;
+}
+
+:host{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dog-image{
+    width: 30%;
+    
+}
+
+.formalization-container{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+}
